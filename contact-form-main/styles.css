@@ -50,6 +50,7 @@ main{
     flex-direction: column;
     align-items: center;
     padding-top: 6.25rem ;
+    
    
 }
 
@@ -461,10 +462,219 @@ button:hover{
 }
 
 
-
-
 @media screen and (max-width:722px){
+    .queryoptions p{
+        font-size: clamp(0.8rem, 0.7189rem + 0.3458vw, 0.875rem);
+
+    }
+
+ 
+      .title{
+        font-size: clamp(1.5rem, 1.4325rem + 0.2882vw, 1.5625rem);
+    }
+
+    label{
+        font-size: clamp(0.9375rem, 0.87rem + 0.2882vw, 1rem);
+        font-weight: 400;
+    
+    }
+
+    .card{
+
+        width: 95%;
+  
+    }
+
+     form{
+        width: 100%;
+   
+    }
+
+    .nombres{
+
+        flex-direction: column;
+        
+    }
+
+    .queryoptions{
+        flex-direction: column;
+        
+    }
+
+    .queryoptions .custom-radio{
+        padding-block: 20px;
+        border-radius: 7px;
+       
+    }
+
+     input{
+        height: 3rem;
+        border-radius: 5px;
+        
+
+    }
+    .mensaje{
+        gap: 0.8rem;
 
 
+    }
+    textarea{
+    border-radius: 5px;
+    resize: none;
+    height: 16rem !important;
+    
+    
+
+    }
+
+    fieldset legend{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--Grey-900);
+
+
+
+    }
+
+    .custom-checkbox p{
+
+        font-size: 15px;
+        font-weight: 400;
+        color: var(--Grey-900);
+
+
+    }
+
+    .identidad{
+        gap: 0.5rem;
+    }
+
+    #Email{
+        gap: 0.5rem;
+
+    }
+    .querytype legend{
+        padding-bottom: 15px;
+
+    }
+
+
+
+    .checkbox-box {
+       width: 16px;
+       height: 16px;
+       border: 1.5px solid var(--Grey-500);
+       border-radius: 2px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: transparent;
+       flex-shrink: 0;
+   }
+
+
+}
+
+
+
+@media screen and (max-width:376px){
+
+
+    .card{
+
+        width: 95%;
+  
+    }
+
+    form{
+        width: 100%;
+   
+    }
+
+    .nombres{
+
+        flex-direction: column;
+    }
+
+    .queryoptions{
+        flex-direction: column;
+        
+    }
+
+    .queryoptions .custom-radio{
+        padding-block: 10px;
+        border-radius: 7px;
+       
+    }
+
+    input{
+        height: 2.2rem;
+        border-radius: 5px;
+        
+
+    }
+    .mensaje{
+        gap: 0.8rem;
+
+
+    }
+    textarea{
+    border-radius: 5px;
+    resize: none;
+    height: 16rem !important;
+    
+    
+
+    }
+
+    fieldset legend{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--Grey-900);
+
+
+
+    }
+
+    .custom-checkbox p{
+
+        font-size: 15px;
+        font-weight: 400;
+        color: var(--Grey-900);
+
+
+    }
+
+    .identidad{
+        gap: 0.5rem;
+    }
+
+    #Email{
+        gap: 0.5rem;
+
+    }
+    .querytype legend{
+        padding-bottom: 15px;
+
+    }
+
+
+
+    .checkbox-box {
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid var(--Grey-500);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+flex-shrink: 0;
+}
+
+
+     
+
+   
     
 }
