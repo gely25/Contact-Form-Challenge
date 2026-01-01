@@ -60,10 +60,12 @@ footer{
     padding-bottom: 20px 
 }
 
+
+
 .card{
     background-color: rgb(255, 255, 255);
-    width: 30%;
-    
+    width: 100%;
+    max-width: 480px;
     padding: 1rem;
     border-radius: 0.5rem;
 }
